@@ -198,7 +198,7 @@ function draw() {
       if (player1.collide(telephone)) {
         // player.health = 100;
         // player.update();
-        player.updatePlayer1Health(100);
+        player.updatePlayer1Health(55);
         telephone.y = -250;
         telephone.velocityY = 0;
       }
@@ -206,7 +206,7 @@ function draw() {
       if (player2.collide(telephone)) {
         // player.health = 100;
         // player.update();
-        player.updatePlayer2Health(100);
+        player.updatePlayer2Health(55);
         telephone.y = -250;
         telephone.velocityY = 0;
       }
